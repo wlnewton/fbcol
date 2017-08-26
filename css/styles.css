@@ -1,0 +1,39 @@
+body {
+    font-family: 'Cardo', Times New Roman, times, serif;
+    background-image: url(../images/background.jpg);
+    background-size:  100%;
+}
+
+header {
+    background-color: rgba(0,0,255,0.3);
+    margin: 0px;
+}
+
+header h1 {
+    padding: 10px 10px 0px 10px;
+    color: #EEE;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(60,60,60,0.5)
+}
+
+nav li{
+    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+footer {
+    font-family: 'Mr Dafoe', cursive;
+    text-align: center;
+    font-size: 90px;
+    background-color: rgba(256,256,256,0.5);
+    position: fixed;
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+}
